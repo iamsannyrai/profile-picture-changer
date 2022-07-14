@@ -1,16 +1,18 @@
 # image_uploader
 
-A new Flutter project.
+Flutter project that demonstrate use of amplify to upload image in s3.
 
-## Getting Started
+### Install amplify cli using:
+1. npm install -g @aws-amplify/cli (or)
+2. curl -sL https://aws-amplify.github.io/amplify-cli/install | bash && $SHELL (MAC or Linux)
+3. curl -sL https://aws-amplify.github.io/amplify-cli/install-win -o install.cmd && install.cmd (Windows)
 
-This project is a starting point for a Flutter application.
+### Initialize amplify
+Type following command at root of your flutter project:
+sudo amplify init
 
-A few resources to get you started if this is your first Flutter project:
+### Provision backend storage
+sudo amplify add storage
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Push changes to cloud
+amplify push
