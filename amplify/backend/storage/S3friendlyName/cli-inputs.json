@@ -1,0 +1,18 @@
+{
+  "resourceName": "S3friendlyName",
+  "policyUUID": "520904c8",
+  "bucketName": "profilepicturebucket",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
